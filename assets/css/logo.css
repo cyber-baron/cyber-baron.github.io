@@ -1,0 +1,66 @@
+/* Звезда */
+.star {
+width: 0; 
+height: 0; 
+margin-bottom: 30px;
+border-left: 55px solid transparent;
+border-right: 50px solid transparent;
+border-bottom: 100px solid rgb(237, 191, 198);
+position: absolute;
+transform: rotate(-14deg);
+}
+
+.star:after {
+content: "";
+width: 0; 
+height: 0;
+position: absolute; 
+top: 30px; 
+left: -50px;
+border-left: 50px solid transparent;
+border-right: 50px solid transparent;
+border-top: 100px solid rgb(237, 191, 198);
+}
+
+/* Цветок */
+.flower {
+width: 2.5em; 
+height: 2.5em; 
+margin: 2em 4.5em 4em;
+border-radius: 100% 0;
+background: rgb(255, 255, 255);
+box-shadow: -3em 3em rgb(255, 255, 255);
+position: relative;
+}
+
+.flower:before, 
+.flower:after {
+content: "";
+width: 2.5em; 
+height: 2.5em; 
+margin: 1em 3em;
+border-radius: 0 100%;
+background: rgb(255, 255, 255);
+position: absolute; 
+left: -6em; 
+top: -1em;
+box-shadow: 3em 3em rgb(255, 255, 255);
+transform-origin: 2.75em 2.75em;
+}
+
+.flower:before {
+transform: rotate(-30deg);
+}
+
+.flower:after {
+transform: rotate(30deg);
+}
+
+/* Круг */
+.cyrcle {
+width: 40px; 
+height: 40px;
+margin: 3em 3em;
+background: rgb(255, 255, 255);
+border-radius: 50%;
+}
