@@ -1,0 +1,24 @@
+.picture {
+    padding: 20px;
+    margin: auto;
+    position: relative;
+    width: 10px;
+    height: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 15px auto;
+}
+
+.row {
+    display: flex;
+    height: 120px;
+}
+
+.col {
+    width: 180px;
+    border: 1px solid #000;
+}
+
+.images img {
+    width: 100px;
+    border: 1px solid #000;
+}

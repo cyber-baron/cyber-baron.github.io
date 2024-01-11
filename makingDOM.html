@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width" initial-scale=1>
+        <link rel="stylesheet" href="assets/css/task3_style.css">
+        <link rel="stylesheet" href="assets/css/task3.css">
+        <link href="https://fonts.googleapis.com/css2?family=Prosto+One&family=Ysabeau:wght@200&display=swap" rel="stylesheet">
+        <title>DrawingCSS</title>
+    </head>
+    
+    <body>
+    <header class="header">
+        <div class="container">
+            <div class="header_inner">
+                <nav class="nav">
+                    <a herf="index.html" class="nav_link">Назад</a>
+                </nav>
+                <div class="header_title">Задание третье. DOM</div>
+            </div>
+        </div>
+    </header>
+        
+    <div class="section_inner">    
+     <h2 class="section_text">
+        Задание заключалось в том чтобы создать два класса class1 и class2. В них задать два разных цвета фона. При каждом четном нажатии на кнопку выводится фраза с применением класса class1, при нечетном class2. Существует 2 массива: латинских высказываний и их переводов, были добавлены свои. Фразы выводятся в случайном, не повторяющемся порядке. Когда фразы заканчиваются, то выводится alert с фразой "Фразы закончились". По нажатию на кнопку  "Перекрасить" у всех четных строк изменяется начертание на полужирное.
+     </h2>
+    </div>    
+        
+    <div class="container">
+            <div class="buttons">
+                    <button id="add-phrase" onclick="add()">Создать</button>
+                    <button id="bold-even-phrases" onclick="boldEven()">Перекрасить четные</button>
+            </div>
+                <div id="rand"></div>
+    </div>
+        
+    <script type="text/javascript" src="/assets/js/task3.js"></script>
+        
+</body>
+</html>
