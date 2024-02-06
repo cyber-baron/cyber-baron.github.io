@@ -1,0 +1,101 @@
+#elm0,#elm1,#elm2,#elm3,#elm4,
+#items > div {
+  width: 220px;
+  height: 50px;
+  font-family: 'Prosto One', sans-serif;
+  font-size: 20px;
+  line-height: 2.5;
+  color: rgb(255, 255, 255);
+}
+
+.column {
+    float: left;
+    width: 43%;
+    margin-right: 73px;
+}
+
+button {
+    margin: 20px;
+}
+
+#elm0 {
+  margin: 10px;
+  background-color: rgb(67, 46, 54);
+}
+
+#elm1 {
+  margin: 10px;
+  background-color: rgb(67, 46, 54);
+}
+
+#elm2 {
+  margin: 10px;
+  background-color: rgb(67, 46, 54);
+}
+
+#elm3 {
+  margin: 10px;
+  background-color: rgb(67, 46, 54);
+}
+
+#elm4 {
+  margin: 10px;
+  background-color: rgb(67, 46, 54);
+}
+
+/*display: inline-block;*/
+#first_items > div{
+  margin: 20px;
+  text-align: center
+}
+
+#items {
+  white-space: nowrap;
+}
+
+/*display: inline-block;*/
+#items > div {
+  margin: 20px;
+  background-color: rgb(156, 214, 192);
+  text-align: center
+}
+
+#elm-point {
+  position: absolute;
+  width: 0;
+  height: 0;
+  display: none;
+}
+
+.connect-mode #elm0 {
+  background-color: rgb(237, 191, 198);
+}
+
+.connect-mode #elm1 {
+  background-color: rgb(237, 191, 198);
+}
+
+.connect-mode #elm2 {
+  background-color: rgb(237, 191, 198);
+}
+
+.connect-mode #elm3 {
+  background-color: rgb(237, 191, 198);
+}
+
+.connect-mode #elm4 {
+  background-color: rgb(237, 191, 198);
+}
+
+.connect-mode #items > div {
+  background-color: rgb(38, 111, 248); 
+}
+
+.connect-mode #items > div:hover {
+  background-color: rgb(248,179,38);
+}
+
+#timer{
+  color: rgb(255, 255, 255);
+  font-family: 'Prosto One', sans-serif;
+}

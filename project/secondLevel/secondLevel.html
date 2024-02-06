@@ -1,0 +1,65 @@
+<html>
+    <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width" initial-scale=1>
+  <link rel="stylesheet" href="/project/secondLevel/project_second_level_mechanic.css">
+  <link rel="stylesheet" href="/project/secondLevel/project_second_level_style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Prosto+One&family=Ysabeau:wght@200&display=swap" rel="stylesheet">
+        <title></title>
+    </head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header_inner">
+                <div class="header_title">Второй уровень сложности</div>
+                <h1 id="timer">01:30</h1>
+            </div>
+        </div>
+    </header>
+    
+    <div class="section_inner">    
+     <h2 class="section_text">
+        На втором уровне сложности необходимо найти синонимы для заданой картинки. Представленна картинка, а также пулл слов из котроых надо будет выбрать и перетащить в контейнер только те слова, которе можно соотнести с картинкой. 
+     </h2>
+    </div>  
+<div class="container">
+<div class="section">       
+    <div class="picture" id="pic"></div>
+    <div class="pull_container">
+        <h2 class="sentance_text">
+            Перетащите подходящие слова в этот контейнер:   
+        </h2> 
+    <div class="pull1" id="resultContainer">
+            
+    </div> 
+        <h2 class="sentance_text">
+            Перетащите подходящие слова из этого контейнера:   
+        </h2> 
+    <div class="pull2">
+        <div class="d2" id="word1" draggable="true">вечер</div>
+        <div class="d2" id="word2" draggable="true">день</div>
+        <div class="d2" id="word3" draggable="true">горы</div>
+        <div class="d2" id="word4" draggable="true">озеро</div>
+        <div class="d2" id="word5" draggable="true">дорога</div>
+        <div class="d2" id="word6" draggable="true">поле</div>
+        <div class="d2" id="word7" draggable="true">облачность</div>
+        <div class="d2" id="word8" draggable="true">лето</div>
+        <div class="d2" id="word9" draggable="true">цветы</div>
+        <div class="d2" id="word10" draggable="true">елки</div>
+        <div class="d2" id="word11" draggable="true">безоблачно</div>
+        <div class="d2" id="word12" draggable="true">ночь</div>
+        <div class="d2" id="word13" draggable="true">луна</div>
+        <div class="d2" id="word14" draggable="true">зима</div>
+        <div class="d2" id="word15" draggable="true">осень</div>
+    </div> 
+    </div>
+</div>
+</div>
+    <div class="level_buttons">
+            <button class="button" onclick="window.location.href = '/project/firstLevel/firstLevel.html'">Вернуться обратно</button>
+            <button class="button" onclick="window.location.reload()">Начать заново</button>
+            <button class="button" id="checkButton">Проверить задание</button>
+            <button class="button" onclick="window.location.href = '/project/thirdLevel/thirdLevel.html'">Следующий уровень</button>
+        </div>
+    <script src="/project/secondLevel/project_second_level.js"></script>
+</body></html>

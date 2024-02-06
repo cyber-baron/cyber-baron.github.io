@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width" initial-scale=1>
+        <link rel="stylesheet" href="/project/css/project_statistic_style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Prosto+One&family=Ysabeau:wght@200&display=swap" rel="stylesheet">
+        <title>ProjectHome</title>
+    </head>
+    
+    <body>
+        <header class="header">
+        <div class="container">
+            <div class="header_inner">
+                <div class="header_title">Статистика игроков</div>
+            </div>
+        </div>
+        </header>
+        <div calss="section">
+        <div class="container">
+            <div class="statistic_container">
+                <table>
+                    <thead>
+                        <tr></tr>
+                    </thead>
+                    <tbody id="data-table"></tbody>
+                </table>
+            </div> 
+        </div>
+        </div>
+        <div class="section">
+                <div class="container">
+                    <div class="menu_buttons">
+                <button class="button_second_type">
+                    <h3 class ="button_text_second_type">
+                        <a href="/project/projectHome.html" target="_blank" rel="noreferrer noopener">
+                            Вернусться в меню 
+                        </a>
+                    </h3>
+                </button>
+                <button class="button_second_type">
+                    <h3 class ="button_text_second_type">
+                        <a target="_blank" rel="noreferrer noopener" id="clear" onclick="localStorage.clear(); window.location.reload()" >
+                            Отчистить статистику 
+                        </a>
+                    </h3>
+                </button>
+                </div>
+            </div>
+        </div>
+        <script src="/project/js/project_statistic.js"></script>
+    </body>    
+</html>

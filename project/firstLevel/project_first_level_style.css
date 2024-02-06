@@ -1,0 +1,140 @@
+/* Тело страницы */
+body{
+    margin: 0;
+    font-family: 'Prosto One', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color: rgb(0, 0, 0);
+}
+
+/* Хедер страницы */
+.header{
+    width: 100%;
+    padding-top: 1vh;
+    background-color: rgb(67, 46, 54);
+}
+
+.header_title{
+    padding-top: 4vh;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    padding-bottom: 4vh;
+    font-weight: 700;
+    font-size: 8vh;
+    color: rgb(255, 255, 255);
+}
+
+.header_inner{
+    display: flex;
+    align-items: center;
+    margin-top: 2vh;
+    margin-left: 1vw;
+}
+
+/* Контейнер */
+.container{
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+/* Секции */
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section_inner {
+    display: inline-block;
+    width: 100%;
+    max-width: 95%;
+    margin-left: 390px;
+    margin-bottom: 7vh;
+    justify-content: center;
+  align-content: center;
+  grid-auto-flow: column;
+}
+
+.section_inner_column {
+    display: inline-block;
+    width: 100%;
+    max-width: 95%;
+    margin-left: 320px;
+    margin-bottom: 7vh;
+    justify-content: center;
+  align-content: center;
+  grid-auto-flow: column;
+}
+
+.section_text {
+    width: 100%;
+    max-width: 95%;
+    font-size: 2.5vh;
+    color: rgb(237, 191, 198);
+    margin-bottom: 5vh;
+    margin-left: 5vh;
+}
+
+.background{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: 100%;
+    height: 62.8vh;
+    z-index: -100;
+}
+
+/* Навигация */
+.nav {
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: color .2s linear;
+}
+
+.nav_link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.nav_link:hover {
+    color: rgb(237, 191, 198);
+}
+
+.button {
+    width: 300px;
+    height: 60px;
+    cursor: pointer;
+    border: none;
+    background: rgb(237, 191, 198);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family: 'Prosto One', sans-serif;
+    font-size: 20px;
+    line-height: 3;
+    border-radius: 40px;
+    outline: none;
+    transition: 0.2s;
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 7px 0 rgb(0, 0, 0);
+}
+
+.button:active {
+    transform: translateY(-2px);
+    box-shadow: 0 3px 0 rgb(0, 0, 0);
+}
+
+.level_buttons{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  z-index: 3;
+}

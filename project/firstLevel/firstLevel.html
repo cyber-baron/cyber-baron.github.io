@@ -1,0 +1,55 @@
+<html>
+    <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width" initial-scale=1>
+  <link rel="stylesheet" href="/project/firstLevel/project_first_level_mechanic.css">
+  <link rel="stylesheet" href="/project/firstLevel/project_first_level_style.css">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/leader-line@1.0.5/leader-line.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Prosto+One&family=Ysabeau:wght@200&display=swap" rel="stylesheet">
+        <title></title>
+    </head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header_inner">
+                <div class="header_title">Первый уровень сложности</div>
+                <h1 id="timer">02:00</h1>
+            </div>
+        </div>
+    </header>
+      
+     <h2 class="section_text">
+        На первом уровне сложности необходимо найти пары однокоренных слов между всех представленных и соединить эти слова линией. Для того чтобы соединить слова необходимо нажать на слово в левой колонке и протянуть пунктирную линюю до слова в правой колонке. Имейте в виду что иногда для одного слова в левой колонке может быть подходить несколько слов из правой колонки. Или для слова в левой колонке может не быть правильных слов в правой колонке вообще. 
+     </h2>
+
+<div class="section">  
+<div class="section_inner_column">  
+<div class="container">   
+    <div class="column" id="first_items"></div>
+    <div class="column" id="items"></div>
+<div class = "column" id="first_items">
+    <div id="elm0">широкий</div>
+    <div id="elm1">каменюга</div>
+    <div id="elm2">домочадцы</div>
+    <div id="elm3">водянка</div>
+    <div id="elm4">городовой</div>
+</div>
+<div class = "column" id="items">
+  <div>расшириться</div>
+  <div>каменщик</div>
+  <div>градостроитель</div>
+  <div>домохозяйка</div>
+  <div>водопад</div>    
+</div>
+<div id="elm-point"></div>
+</div>
+    </div>    
+</div> 
+    <div class="level_buttons">
+            <button class="button" onclick="window.location.href = '/project/authorisationProject.html'">Вернуться обратно</button>
+            <button class="button" onclick="window.location.reload()">Начать заново</button>
+            <button class="button" id="checkButton">Проверить задание</button>
+            <button class="button" onclick="window.location.href = '/project/secondLevel/secondLevel.html'">Следующий уровень</button>
+        </div>
+    <script src="/project/firstLevel/project_first_level.js"></script>
+</body></html>
